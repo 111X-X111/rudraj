@@ -1,0 +1,28 @@
+[project]
+name = "options-greeks-kite"
+version = "0.1.0"
+description = "Streamlit app to compute and visualize options Greeks using Kite Connect"
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "streamlit>=1.30.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "scipy>=1.11.0",
+    "kiteconnect>=4.2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "flake8",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"

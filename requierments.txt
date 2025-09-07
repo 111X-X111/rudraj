@@ -1,0 +1,7 @@
+pandas
+numpy
+streamlit
+scipy
+requests
+upstox-python-sdk
+kiteconnect
